@@ -15600,7 +15600,7 @@ double16 __ovld __conv sub_group_broadcast( double16 value, uint index );
 #endif  // cl_khr_subgroup_extended_types
 
 #if defined(cl_khr_subgroup_non_uniform_vote)
-int     __ovld sub_group_elect();
+int     __ovld sub_group_elect(void);
 int     __ovld sub_group_non_uniform_all( int predicate );
 int     __ovld sub_group_non_uniform_any( int predicate );
 
@@ -15705,11 +15705,11 @@ uint    __ovld sub_group_ballot_exclusive_scan( uint4 value );
 uint    __ovld sub_group_ballot_find_lsb( uint4 value );
 uint    __ovld sub_group_ballot_find_msb( uint4 value );
 
-uint4   __ovld __cnfn get_sub_group_eq_mask();
-uint4   __ovld __cnfn get_sub_group_ge_mask();
-uint4   __ovld __cnfn get_sub_group_gt_mask();
-uint4   __ovld __cnfn get_sub_group_le_mask();
-uint4   __ovld __cnfn get_sub_group_lt_mask();
+uint4   __ovld __cnfn get_sub_group_eq_mask(void);
+uint4   __ovld __cnfn get_sub_group_ge_mask(void);
+uint4   __ovld __cnfn get_sub_group_gt_mask(void);
+uint4   __ovld __cnfn get_sub_group_le_mask(void);
+uint4   __ovld __cnfn get_sub_group_lt_mask(void);
 
 #if defined(cl_khr_fp16)
 half    __ovld sub_group_non_uniform_broadcast( half value, uint index );
@@ -15720,7 +15720,7 @@ half8   __ovld sub_group_non_uniform_broadcast( half8 value, uint index );
 half16  __ovld sub_group_non_uniform_broadcast( half16 value, uint index );
 
 half    __ovld sub_group_broadcast_first( half value );
-#endif // cl_khr_fp16)
+#endif // cl_khr_fp16
 
 #if defined(cl_khr_fp64)
 double   __ovld sub_group_non_uniform_broadcast( double value, uint index );
@@ -16043,7 +16043,7 @@ half    __ovld sub_group_shuffle_down( half value, uint delta );
 #if defined(cl_khr_fp64)
 double  __ovld sub_group_shuffle_up( double value, uint delta );
 double  __ovld sub_group_shuffle_down( double value, uint delta );
-#endif // cl_khr_fp64)
+#endif // cl_khr_fp64
 
 #endif // cl_khr_subgroup_shuffle_relative
 
@@ -16131,7 +16131,7 @@ double  __ovld sub_group_reduce_clustered_add( double value, uint clustersize );
 double  __ovld sub_group_reduce_clustered_mul( double value, uint clustersize );
 double  __ovld sub_group_reduce_clustered_min( double value, uint clustersize );
 double  __ovld sub_group_reduce_clustered_max( double value, uint clustersize );
-#endif // cl_khr_fp64)
+#endif // cl_khr_fp64
 
 #endif // cl_khr_subgroup_clustered_reduce
 
