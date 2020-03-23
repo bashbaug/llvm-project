@@ -61,6 +61,15 @@ def FuncExtKhrInt64BaseAtomics           : FunctionExtension<"cl_khr_int64_base_
 def FuncExtKhrInt64ExtendedAtomics       : FunctionExtension<"cl_khr_int64_extended_atomics">;
 def FuncExtKhrMipmapImage                : FunctionExtension<"cl_khr_mipmap_image">;
 def FuncExtKhrGlMsaaSharing              : FunctionExtension<"cl_khr_gl_msaa_sharing">;
+// TODO: Are these needed?
+def FuncExt_khr_subgroup_extended_types         : FunctionExtension<"cl_khr_subgroup_extended_types">;
+def FuncExt_khr_subgroup_non_uniform_vote       : FunctionExtension<"cl_khr_subgroup_non_uniform_vote">;
+def FuncExt_khr_subgroup_ballot                 : FunctionExtension<"cl_khr_subgroup_ballot">;
+def FuncExt_khr_subgroup_non_uniform_arithmetic : FunctionExtension<"cl_khr_subgroup_non_uniform_arithmetic">;
+def FuncExt_khr_subgroup_shuffle                : FunctionExtension<"cl_khr_subgroup_shuffle">;
+def FuncExt_khr_subgroup_shuffle_relative       : FunctionExtension<"cl_khr_subgroup_shuffle_relative">;
+def FuncExt_khr_subgroup_clustered_reduce       : FunctionExtension<"cl_khr_subgroup_clustered_reduce">;
+
 
 // Multiple extensions
 def FuncExtKhrMipmapAndWrite3d           : FunctionExtension<"cl_khr_mipmap_image cl_khr_3d_image_writes">;
