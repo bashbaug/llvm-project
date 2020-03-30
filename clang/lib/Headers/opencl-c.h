@@ -16048,89 +16048,89 @@ double  __ovld sub_group_shuffle_down( double value, uint delta );
 #endif // cl_khr_subgroup_shuffle_relative
 
 #if defined(cl_khr_subgroup_clustered_reduce)
-char    __ovld sub_group_reduce_clustered_add( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_add( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_add( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_add( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_add( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_add( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_add( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_add( ulong value, uint clustersize );
-float   __ovld sub_group_reduce_clustered_add( float value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_add( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_add( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_add( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_add( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_add( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_add( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_add( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_add( ulong value, uint clustersize );
+float   __ovld sub_group_clustered_reduce_add( float value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_mul( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_mul( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_mul( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_mul( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_mul( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_mul( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_mul( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_mul( ulong value, uint clustersize );
-float   __ovld sub_group_reduce_clustered_mul( float value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_mul( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_mul( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_mul( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_mul( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_mul( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_mul( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_mul( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_mul( ulong value, uint clustersize );
+float   __ovld sub_group_clustered_reduce_mul( float value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_min( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_min( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_min( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_min( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_min( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_min( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_min( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_min( ulong value, uint clustersize );
-float   __ovld sub_group_reduce_clustered_min( float value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_min( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_min( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_min( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_min( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_min( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_min( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_min( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_min( ulong value, uint clustersize );
+float   __ovld sub_group_clustered_reduce_min( float value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_max( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_max( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_max( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_max( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_max( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_max( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_max( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_max( ulong value, uint clustersize );
-float   __ovld sub_group_reduce_clustered_max( float value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_max( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_max( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_max( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_max( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_max( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_max( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_max( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_max( ulong value, uint clustersize );
+float   __ovld sub_group_clustered_reduce_max( float value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_and( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_and( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_and( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_and( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_and( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_and( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_and( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_and( ulong value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_and( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_and( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_and( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_and( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_and( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_and( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_and( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_and( ulong value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_or( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_or( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_or( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_or( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_or( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_or( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_or( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_or( ulong value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_or( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_or( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_or( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_or( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_or( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_or( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_or( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_or( ulong value, uint clustersize );
 
-char    __ovld sub_group_reduce_clustered_xor( char value, uint clustersize );
-uchar   __ovld sub_group_reduce_clustered_xor( uchar value, uint clustersize );
-short   __ovld sub_group_reduce_clustered_xor( short value, uint clustersize );
-ushort  __ovld sub_group_reduce_clustered_xor( ushort value, uint clustersize );
-int     __ovld sub_group_reduce_clustered_xor( int value, uint clustersize );
-uint    __ovld sub_group_reduce_clustered_xor( uint value, uint clustersize );
-long    __ovld sub_group_reduce_clustered_xor( long value, uint clustersize );
-ulong   __ovld sub_group_reduce_clustered_xor( ulong value, uint clustersize );
+char    __ovld sub_group_clustered_reduce_xor( char value, uint clustersize );
+uchar   __ovld sub_group_clustered_reduce_xor( uchar value, uint clustersize );
+short   __ovld sub_group_clustered_reduce_xor( short value, uint clustersize );
+ushort  __ovld sub_group_clustered_reduce_xor( ushort value, uint clustersize );
+int     __ovld sub_group_clustered_reduce_xor( int value, uint clustersize );
+uint    __ovld sub_group_clustered_reduce_xor( uint value, uint clustersize );
+long    __ovld sub_group_clustered_reduce_xor( long value, uint clustersize );
+ulong   __ovld sub_group_clustered_reduce_xor( ulong value, uint clustersize );
 
-int     __ovld sub_group_reduce_clustered_logical_and( int predicate, uint clustersize );
-int     __ovld sub_group_reduce_clustered_logical_or( int predicate, uint clustersize );
-int     __ovld sub_group_reduce_clustered_logical_xor( int predicate, uint clustersize );
+int     __ovld sub_group_clustered_reduce_logical_and( int predicate, uint clustersize );
+int     __ovld sub_group_clustered_reduce_logical_or( int predicate, uint clustersize );
+int     __ovld sub_group_clustered_reduce_logical_xor( int predicate, uint clustersize );
 
 #if defined(cl_khr_fp16)
-half    __ovld sub_group_reduce_clustered_add( half value, uint clustersize );
-half    __ovld sub_group_reduce_clustered_mul( half value, uint clustersize );
-half    __ovld sub_group_reduce_clustered_min( half value, uint clustersize );
-half    __ovld sub_group_reduce_clustered_max( half value, uint clustersize );
+half    __ovld sub_group_clustered_reduce_add( half value, uint clustersize );
+half    __ovld sub_group_clustered_reduce_mul( half value, uint clustersize );
+half    __ovld sub_group_clustered_reduce_min( half value, uint clustersize );
+half    __ovld sub_group_clustered_reduce_max( half value, uint clustersize );
 #endif // cl_khr_fp16
 
 #if defined(cl_khr_fp64)
-double  __ovld sub_group_reduce_clustered_add( double value, uint clustersize );
-double  __ovld sub_group_reduce_clustered_mul( double value, uint clustersize );
-double  __ovld sub_group_reduce_clustered_min( double value, uint clustersize );
-double  __ovld sub_group_reduce_clustered_max( double value, uint clustersize );
+double  __ovld sub_group_clustered_reduce_add( double value, uint clustersize );
+double  __ovld sub_group_clustered_reduce_mul( double value, uint clustersize );
+double  __ovld sub_group_clustered_reduce_min( double value, uint clustersize );
+double  __ovld sub_group_clustered_reduce_max( double value, uint clustersize );
 #endif // cl_khr_fp64
 
 #endif // cl_khr_subgroup_clustered_reduce
